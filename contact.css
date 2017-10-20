@@ -78,7 +78,7 @@ input[type="search"], input[type="text"], input[type="email"], input[type="tel"]
     padding-top: 80px;
 }
 .single-contact-info {
-    padding-left: 20px;
+    padding-left: 40px;
     position: relative;
     margin-top: 40px;
 }
@@ -93,4 +93,7 @@ input[type="search"], input[type="text"], input[type="email"], input[type="tel"]
 .single-contact-info p {
     margin-bottom: 0;
     padding: 0;
+}
+.single-contact-info p{
+	text-align: left;
 }
