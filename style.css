@@ -35,6 +35,10 @@ body {
     text-transform: uppercase;
     color: #333;
     font-weight: 900;
+    transition: .2s;
+}
+.head-wrap ul li a:hover {
+    color: #00ABDE;
 }
 .conD {
 	color: #444;
