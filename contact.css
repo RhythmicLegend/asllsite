@@ -1,0 +1,96 @@
+/*comon css*/
+.full-wrap {
+    background: white;
+    box-shadow: 0px 0px 20px 1px #888;
+    padding: 0;
+}
+
+
+
+
+
+/********* contact us css *********/
+
+.blog-comment.theme2 input:focus, .blog-comment.theme2 textarea:focus {
+    border-color: #fbfbfb;
+    box-shadow: 3px 5px 6px #f5f5f5;
+}
+.blog-comment.theme2 textarea, .blog-comment.theme2 input[type="text"], .blog-comment.theme2 input[type="tel"], .blog-comment.theme2 input[type="email"] {
+    background-color: #fbfbfb;
+    transition: .3s;
+}
+.header-area .boxed-btn {
+  color: #fff;
+  padding:12px 23px;
+  box-shadow: 0 2px 7px #F1F1F1;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    padding: 10px 30px;
+}
+input[type="text"], input[type="tel"], input[type="url"], input[type="password"], input[type="email"], textarea {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 15px 20px;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input[type="search"], input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="url"], textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form input[type="tel"] {
+    margin-bottom: 20px;
+}
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    font-size: 14px;
+}
+
+.contents .section-padding {
+    padding-bottom: 75px;
+    background: url(images/bg.png) repeat-x bottom;
+}
+.boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover, .cta-area.theme2 .boxed-btn:hover, .cta-area.theme3 .boxed-btn:hover, .websit-chack-form input[type="submit"]:hover, .comment-form input[type="submit"]:hover {
+    background-color: #45A1C1;
+    color: #fff;
+}
+.comment-form input[type="submit"] {
+    background-color: #4ad79e;
+    font-weight: 700;
+    width: auto;
+    transition: .3s;
+    color: #fff;
+    border-radius: 4px;
+}
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    font-size: 14px;
+}
+.blog-comment p{
+	text-align: left;
+}
+.section-padding{
+	padding-top:80px;
+}
+.contact-info {
+    padding-top: 80px;
+}
+.single-contact-info {
+    padding-left: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+.contact-info-icon {
+    color: #4ad79e;
+    font-size: 25px;
+    left: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+}
+.single-contact-info p {
+    margin-bottom: 0;
+    padding: 0;
+}
